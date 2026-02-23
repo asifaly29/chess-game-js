@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#heading
+{
+    font-size: 70px;
+    color:rgb(250, 248, 248);
+}
+
+#heading1
+{
+    font-size: 20px;
+    color:rgb(248, 246, 246);
+    margin-bottom: 1rem;
+}
+
+body
+{
+    background-color: rgba(48,46,43);
+    text-align: center;
+    color:white;
+}
+
+.container
+{
+    height:60vh; 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.game{
+    height:75vmin;
+    width:85vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+     
+}
+.square{
+    height:10vmin;
+    width:10vmin;
+    border:black;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color:rgb(7, 6, 5);
+    background-color: lightblue; 
+}
+.white{
+    background-color:  rgb(115,149,82);
+}
+.black{
+    background-color: rgb(235,236,208);
+}
+
+.square:hover {
+  outline: 4px solid #ffcc00; /* gold border */
+  outline-offset: -2px;       /* keeps border inside the square */
+  cursor: pointer;            /* changes cursor to hand */
+}
+
+.selected {
+  background-color: rgba(225, 210, 47, 0.719);  /* blue tint overlay */
+   /* outline: 2px solid #00e5ff;               /*green border */
+   /*  outline-offset: -2px; */
+}
+
+.possible{
+   background-color:rgba(112, 172, 227, 0.829) ;
+   outline:1px solid black;
+}
+
+.target{
+   background-color:rgba(189, 50, 55, 0.834) ;
+   outline:1px solid black; 
+}
