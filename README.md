@@ -8,7 +8,7 @@ This project demonstrates building game logic from scratch, DOM manipulation, an
 ---
 ## 🚀 Live Demo
 *(Enable GitHub Pages to make this link active)*
-👉 [Play the Game Here](https://yourusername.github.io/chess-game-js/)
+👉 [Play the Game Here] https://asifaly29.github.io/chess-game-js/
 
 ---
 
