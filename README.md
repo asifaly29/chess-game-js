@@ -7,8 +7,7 @@ This project demonstrates building game logic from scratch, DOM manipulation, an
 
 ---
 ## 🚀 Live Demo
-*(Enable GitHub Pages to make this link active)*
-👉 [Play the Game Here] https://asifaly29.github.io/chess-game-js/
+👉 [Play the Game Here] (https://asifaly29.github.io/chess-game-js/)
 
 ---
 
@@ -39,7 +38,6 @@ The project was built using a **logic-first approach**.
 3. Once the algorithm was clear, I implemented it in JavaScript.  
 4. Gradually added other pieces and interactive features to the board.
 
-This approach helped ensure **accuracy and modularity** before integrating all pieces.
 
 ---
 
